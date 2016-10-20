@@ -557,6 +557,12 @@ nnoremap U <C-r>
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
+" Nerd tree config 
+map <C-e> :NERDTreeToggle<CR>
+
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+
 "==========================================
 " FileType Settings  文件类型设置
 "==========================================
