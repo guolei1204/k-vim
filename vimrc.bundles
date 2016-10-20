@@ -32,6 +32,8 @@ call plug#begin('~/.vim/bundle')
 " nerd tree
 Plug 'scrooloose/nerdtree'
 
+" dash
+Plug 'rizzatti/dash.vim'
 
 " syntastic
 Plug 'scrooloose/syntastic'
