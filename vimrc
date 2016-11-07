@@ -19,6 +19,17 @@
 "       -> 插件配置和具体设置在vimrc.bundles中
 "==========================================
 
+let g:ycm_key_list_select_completion = ['<c-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<c-p>', '<Up>']
+
+
+
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+
 "==========================================
 " Initial Plugin 加载插件
 "==========================================
